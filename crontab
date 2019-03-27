@@ -1,0 +1,10 @@
+# Crontab specification
+
+# Sec   Min   Hour   Command
+  *     *     *      echo "every second"
+  */3   *     *      echo "every third second"
+  */5   *     *      echo "every fifth second"
+  0     *     *      echo "every minute at 0 sec"
+  */5   30    *      echo "every 5 seconds, once per hour, during the 30th minute"
+  15    18    12     echo "every day at 12:18:15"
+  */30   0    *      echo "every hour twice during the first minute"
